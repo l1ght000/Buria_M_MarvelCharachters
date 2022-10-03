@@ -15,7 +15,7 @@ body {
   font-family: sans-serif;
   background-color: black;
   color: white;
-  background-image: url('images/denim.png');
+  background-image: url('/image/denim.png');
 }
 
 /* main header rules */
@@ -40,7 +40,26 @@ text-align: center;
 .characters li img {
     width: 150px;
     cursor: pointer;
+}
 
+/* select the h3 tag inside the article tag on the page */
+
+/* a selector followed by a space and then ANOTHER selector gets reference to the parent elemnt and then the child elemnt or elements inside of it */
+
+article { padding: 20px; } 
+article h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+/*select the p tag inside the aricle img on the page */
+article p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 1-2;
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* footer rules here */
